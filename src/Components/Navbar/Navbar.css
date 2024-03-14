@@ -1,0 +1,53 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    gap: 20px;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+}
+
+.color{
+    background-color: #080808;
+}
+
+nav .humburger{
+    display: none;
+}
+
+
+nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+@media(max-width:700px){
+
+    nav .humburger{
+        display: block;
+    }
+
+    .menu{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        height: 100vh;
+        top: 0vh;
+        left: -100%;
+        flex-direction: column;
+        gap: 25px;
+        background-color: rgba(0, 0,0, 0.9);
+    }
+
+    .active{
+        left: 0; 
+    }
+
+}

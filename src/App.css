@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Tilt+Prism&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,i,button{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+li{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.heading{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}

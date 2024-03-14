@@ -1,0 +1,18 @@
+
+
+
+.heder{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heder h1{
+    font-size: 45px;
+}
+.heder p{
+    text-align: center;
+}
